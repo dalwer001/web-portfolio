@@ -91,12 +91,14 @@ section{
 }
 
 #full-stack{
+    background-color:rgba(245, 222, 179, 0.459);
     border-left: 7px solid;
     border-image: linear-gradient(45deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
     border-image-slice: 1;
 }
 
 #newb-stack{
+    background-color:rgba(231, 246, 146, 0.376);
     border-left: 7px solid;
     border-image: linear-gradient(45deg, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%);
     border-image-slice: 1;
