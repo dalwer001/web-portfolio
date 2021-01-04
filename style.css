@@ -1,9 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
 body{
     font-family: 'Redressed', cursive;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 70px;
+}
+h2{
+    margin-top:2%;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .name-highlight{
@@ -11,23 +25,84 @@ h1{
 }
 
 p{
+    color: dimgray;
     text-align: justify;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 
-.btn{
-    background: linear-gradient(45deg, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
-    
-}
+
 
 
 .half-width{
     margin-top: 2%;
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 7%;
     padding-left:2% ;
 }
 
 .half-width img{
     width: 100%;
+}
+
+.top-section{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.btn-link{
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:10px 20px;
+    color: white;
+    background: linear-gradient(45deg, #a1f0df 0%,#aa5533 50%,#eb8f6b 51%,#531830 100%);
+}
+
+
+.dream-section{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 150px;
+}
+
+.new-color{
+    color:#0A0B24;
+}
+
+
+.shadow-box{
+    box-shadow: 10px 10px 40px  gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.experience-section{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
+    border-image-slice: 1;
+}
+
+#newb-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
