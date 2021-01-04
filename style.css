@@ -1,0 +1,33 @@
+body{
+    font-family: 'Redressed', cursive;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.name-highlight{
+    color: orange;
+}
+
+p{
+    text-align: justify;
+}
+
+.btn{
+    background: linear-gradient(45deg, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+    
+}
+
+
+.half-width{
+    margin-top: 2%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2% ;
+}
+
+.half-width img{
+    width: 100%;
+}
